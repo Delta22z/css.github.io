@@ -1,0 +1,62 @@
+body{
+    font-family: Georgia,serif;/*Define el tipo de fuente*/
+    line-height: 1.8;/*Define una altura de la linea mas alta para mayor legibilidad*/
+    margin: 0;
+    padding: 0;
+    background-color:#E9E7E7 ;/*Define el color de fondo*/
+}
+/*Estilo del contenedor principal*/
+.container{
+    max-width: 900px;/*Ancho maximo del contenedor*/
+    margin: 40px auto;/*Centra el contenedor horizontalmente y agrega un margen superior*/
+    padding: 30px;/*Espaciado interno alrededor del contenido*/
+    background-color: #ffffff;
+    border-radius: 10px; /*Border redondeados*/
+    border: 2px solid #009688;
+}
+/*Estilo para el encabezado*/
+h1{
+    color: #00796b;
+    text-align: center;
+    font-size: 30px;/*Tamaño de la fuente*/
+    text-transform: uppercase;/*Texto en Mayusculas*/
+}
+/*Estilo para los parrafos*/
+p{
+    margin: 20px 0;
+    font-size: 1.1em;/*Tamaño de fuente ligeramente mas grande*/
+    text-align: justify;
+}
+/*Esltilo para las listas*/
+ul{
+    list-style-type: circle;/*Viñetas circulares*/
+    margin-left: 20px;/*Espaciado a la izquierda para las listas*/
+}
+/*Estilo para las A*/
+a{
+    color: #004d40;
+    text-decoration: underline;
+    font-weight: bold;/*Negritas*/
+
+}
+a:hover{
+    color: #1f4743;
+}
+table{
+    width: 100%;/*Ancho completo de la tabla*/
+    border-spacing: 0;/*Sin espacio entre celdas*/
+    margin: 20px 0;
+}
+/*Estilo a las celdas de la tabla*/
+th,td{
+    border:1px double #00796b;
+    padding: 12px;/*Espaciado interno*/
+    text-align: end;
+    background-color: #e0f2f1;
+}
+
+th{
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+}
